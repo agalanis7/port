@@ -5,9 +5,9 @@ class TabsTwo extends Component{
     render(){
         let 
         tab1 = "Main skills",
-        tab2 = "Awards",
-        tab3 = "Experience",
-        tab4 = "Education & Certification";
+        tab2 = "Education & Certification",
+        tab3 = "Experience"
+
         const { tabStyle } = this.props
         return(
             <div>
@@ -21,22 +21,21 @@ class TabsTwo extends Component{
                                         <Tab>{tab1}</Tab>
                                         <Tab>{tab2}</Tab>
                                         <Tab>{tab3}</Tab>
-                                        <Tab>{tab4}</Tab>
                                     </TabList>
 
                                     <TabPanel>
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a href="/service">User experience design <span> - UI/UX</span></a>
-                                                    Delight the user and make it work.
+                                                    <a>React.js <span> - Robust js Library</span></a>
+                                                    Delight the user with reactive experiences.
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Web and user interface design<span> - Development</span></a>
+                                                    <a>Web and user interface design<span> - Development</span></a>
                                                     Websites, web experiences, ...
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Interaction design <span> - Animation</span></a>
+                                                    <a>Interaction design <span> - Animation</span></a>
                                                     I like to move it move it.
                                                 </li>
                                             </ul>
@@ -45,7 +44,7 @@ class TabsTwo extends Component{
 
                                     <TabPanel>
                                        <div className="single-tab-content">
-                                           <ul>
+                                           {/* <ul>
                                                <li>
                                                    <a href="/service">Awwwards.com <span>- Winner</span></a> 2019 - 2020
                                                </li>
@@ -55,7 +54,7 @@ class TabsTwo extends Component{
                                                <li>
                                                    <a href="/service">Design nominees <span>- site of the day</span></a> 2013- 2014
                                                </li>
-                                           </ul>
+                                           </ul> */}
                                        </div>
                                     </TabPanel>
 
@@ -65,13 +64,10 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Sr. Front-end Engineer<span> - Google</span></a> 2018 - Current
+                                                   <a href="/portfolio-landing">Front-end Engineer<span> - Daystar Contracting</span></a> 2010 - 2018
                                                </li>
                                                <li>
-                                                   <a href="/service">Front-end Engineer<span> - Microsoft</span></a> 2017 - 2018
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Software Engineer<span> - Alibaba </span></a> 2013- 2014
+                                                   <a href="/portfolio-landing">Accountant<span> - Affinity Mortgage </span></a> 2006- 2010
                                                </li>
                                            </ul>
                                        </div>
