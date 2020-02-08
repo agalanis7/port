@@ -64,6 +64,9 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
+                                                   <a href="/portfolio-landing">Software Engineer Intern<span> - Miami Dev Shop</span></a> 2018 - 2019
+                                               </li>
+                                               <li>
                                                    <a href="/portfolio-landing">Front-end Engineer<span> - Daystar Contracting</span></a> 2010 - 2018
                                                </li>
                                                <li>

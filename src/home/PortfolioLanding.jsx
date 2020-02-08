@@ -23,7 +23,7 @@ const SlideList = [
 
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+        description = 'Basically I wake up and kiss excellence..' ;
     const PostList = BlogContent.slice(0 , 3);
     return (
         <>
@@ -114,8 +114,10 @@ const PortfolioLanding = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                        <h2 className="title">My Latest Project</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <h2 className="title">My Latest Projects</h2>
+                                        <p>"Brevity is the soul of wit"</p>
+                                        <p>-William Shakespeare</p>
+                                        
                                     </div>
                                 </div>
                             </div>
