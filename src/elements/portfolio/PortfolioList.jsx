@@ -3,8 +3,9 @@ import React, { Component } from "react";
 const PortfolioListContent = [
     {
         image: 'image-1',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Daystar Contracting',
+        title: 'HTML, CSS, Javascript',
+        link: 'https://www.daystarcontracting.com'
     },
     {
         image: 'image-2',
@@ -51,7 +52,7 @@ class PortfolioList extends Component{
                                     <p>{value.category}</p>
                                     <h4><a href="/portfolio-details">{value.title}</a></h4>
                                     <div className="portfolio-button">
-                                        <a className="rn-btn" href="/portfolio-details">View Details</a>
+                                        <a className="rn-btn" href={value.link}>View Site</a>
                                     </div>
                                 </div>
                             </div>

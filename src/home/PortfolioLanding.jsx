@@ -33,7 +33,7 @@ const PortfolioLanding = () => {
                 <div className="slider-wrapper">
                     {/* Start Single Slide */}
                     {SlideList.map((value , index) => (
-                        <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--25" key={index}>
+                        <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--26" key={index}>
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-12">
@@ -62,7 +62,7 @@ const PortfolioLanding = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-7.jpg" alt="About Images"/>
+                                        <img className="w-100" src="/assets/images/about/me800w.jpg" alt="About Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -115,22 +115,19 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                         <h2 className="title">My Latest Projects</h2>
-                                        <p>"Brevity is the soul of wit"</p>
-                                        <p>-William Shakespeare</p>
-                                        
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
                                 <PortfolioList styevariation="text-center mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="6" />
                             </div>
-                            <div className="row">
+                            {/* <div className="row">
                                 <div className="col-lg-12">
                                     <div className="view-more-btn mt--60 mt_sm--30 text-center">
                                         <a className="rn-button-style--2 btn-solid" href="/blog"><span>View More</span></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ class TabsTwo extends Component{
     render(){
         let 
         tab1 = "Main skills",
-        tab2 = "Education & Certification",
+        tab2 = "Education",
         tab3 = "Experience"
 
         const { tabStyle } = this.props
@@ -43,20 +43,25 @@ class TabsTwo extends Component{
                                     </TabPanel>
 
                                     <TabPanel>
-                                       <div className="single-tab-content">
-                                           {/* <ul>
-                                               <li>
-                                                   <a href="/service">Awwwards.com <span>- Winner</span></a> 2019 - 2020
-                                               </li>
-                                               <li>
-                                                   <a href="/service">CSS Design Awards <span>- Winner</span></a> 2017 - 2018
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Design nominees <span>- site of the day</span></a> 2013- 2014
-                                               </li>
-                                           </ul> */}
-                                       </div>
+                                        <div className="single-tab-content">
+                                            <ul>
+                                                <li>
+                                                    <a>BS Finance <span> - 2006</span></a>
+                                                    University of Maryland, College Park
+                                                </li>
+                                                <li>
+                                                    <a>Structured Study Program<span> - 2017</span></a>
+                                                    Hack Reactor, San Francisco, CA 
+                                                </li>
+                                                <li>
+                                                    <a>Full Stack Web Development Program <span> - 2018</span></a>
+                                                    Wyncode Academy, Miami, FL
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </TabPanel>
+                            
+                                    
 
 
 
@@ -75,23 +80,6 @@ class TabsTwo extends Component{
                                            </ul>
                                        </div>
                                     </TabPanel>
-
-                                    <TabPanel>
-                                       <div className="single-tab-content">
-                                           <ul>
-                                               <li>
-                                                   <a href="/service">BSc In CSE<span> - ABC University, Los Angeles, CA</span></a> 2010
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Diploma in Computer Science<span> - Gamma Technical Institute</span></a> 2009
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
-                                               </li>
-                                           </ul>
-                                       </div>
-                                    </TabPanel>
-                                    
                                 </Tabs>
                             </div>
                         </div>

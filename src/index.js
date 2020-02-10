@@ -45,14 +45,14 @@ class Root extends Component{
         return(
             <BrowserRouter basename={'/'}>
                 <Switch>
-                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={PortfolioLanding}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/digital-agency`} component={DigitalAgency}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/creative-agency`} component={CreativeAgency}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/personal-portfolio`} component={PersonalPortfolio}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/studio-agency`} component={StudioAgency}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/business`} component={Business}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio-home`} component={HomePortfolio}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-landing`} component={PortfolioLanding}/>
+                    {/* <Route exact path= "/"component={PortfolioLanding}/> */}
                     <Route exact path={`${process.env.PUBLIC_URL}/creative-landing`} component={CreativeLanding}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/home-particles`} component={HomeParticles}/>
                     <Layout>
