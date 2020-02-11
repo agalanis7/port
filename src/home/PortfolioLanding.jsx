@@ -23,7 +23,7 @@ const SlideList = [
 
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'Basically I wake up and kiss excellence..' ;
+        description = 'I have always had an entrepreneurial spirit, and over the years I\'ve had multiple business ideas.  The problem was that all my business ideas were highly dependent on a website.  So in 2017 I began studying javascript, html, and css.  I enrolled in an online structured study program with a school called \'HackReactor\' in San Francisco.  After 6 months of nights and weekends I had a firm enough grasp on coding to get into \'Wyncode Academy\' in Miami.  I moved to Miami in September 2018 to attend the \'Full Stack Web Developer Program\'.';
     const PostList = BlogContent.slice(0 , 3);
     return (
         <>

@@ -4,9 +4,9 @@ import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
+    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/drenomaly'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/agalanis7'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/agalanis7'},
     //{Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
 class HeaderThree extends Component{
@@ -71,7 +71,7 @@ class HeaderThree extends Component{
                 <div className="header-wrapper">
                     <div className="header-left d-flex align-items-center">
                         <div className="logo">
-                            <a href="/portfolio-landing">
+                            <a href="/">
                                 {logoUrl}
                             </a>
                         </div>

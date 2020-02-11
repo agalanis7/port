@@ -2,9 +2,9 @@ import React from 'react';
 import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
+    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/drenomaly'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/agalanis7'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/agalanis7'},
     // {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
 
@@ -16,7 +16,7 @@ const FooterTwo = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div className="inner">
                             <div className="logo text-center text-sm-left mb_sm--20">
-                                <a href="/portfolio-landing">
+                                <a href="/">
                                     <img src="/assets/images/logo/logo-symbol-light.png" alt="Logo images"/>
                                 </a>
                             </div>
