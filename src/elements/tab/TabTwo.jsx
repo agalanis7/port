@@ -72,10 +72,10 @@ class TabsTwo extends Component{
                                                    <a href="/portfolio-landing">Software Engineer Intern<span> - Miami Dev Shop</span></a> 2018 - 2019
                                                </li>
                                                <li>
-                                                   <a href="/portfolio-landing">Project Manager<span> - Daystar Contracting</span></a> 2010 - 2018
+                                                   <a href="/portfolio-landing">Project Manager<span> - Daystar Contracting</span></a> 2011 - 2018
                                                </li>
                                                <li>
-                                                   <a href="/portfolio-landing">Accountant<span> - Affinity Mortgage </span></a> 2006- 2010
+                                                   <a href="/portfolio-landing">Accountant<span> - Affinity Mortgage </span></a> 2006- 2011
                                                </li>
                                            </ul>
                                        </div>
