@@ -10,13 +10,13 @@ const PortfolioListContent = [
     {
         image: 'image-2',
         category: 'SobeKick Website',
-        title: 'Getting tickets to the big show',
+        title: 'Wordpress',
         link: 'https://sobekick.com/'
     },
     {
         image: 'image-3',
         category: 'SobeKick Mobile App',
-        title: 'Getting tickets to the big show',
+        title: 'React Native',
         link: 'https://apps.apple.com/us/app/sobekick-online/id1283346557'
     } 
 ]
