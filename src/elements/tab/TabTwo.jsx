@@ -68,6 +68,9 @@ class TabsTwo extends Component{
                                     <TabPanel>
                                        <div className="single-tab-content">
                                            <ul>
+                                           <li>
+                                                   <a href="/portfolio-landing">Director of Technology<span> - SobeKick Gym</span></a> 2019 - 2020
+                                               </li>
                                                <li>
                                                    <a href="/portfolio-landing">Software Engineer Intern<span> - Miami Dev Shop</span></a> 2018 - 2019
                                                </li>

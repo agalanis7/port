@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn } from "react-icons/fa";
+import {FaInstagram ,FaFacebookF , FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 
@@ -54,15 +54,15 @@ class HeaderThree extends Component{
         const { logo, color='default-color' } = this.props;
         let logoUrl;
         if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
+            logoUrl = <img src="/public/favicon.ico" alt="Andreas Galanis" />;
         }else if(logo === 'dark'){
-            logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
+            logoUrl = <img src="/public/favicon.ico" alt="Andreas Galanis" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="Digital Agency" />;
+            logoUrl = <img src="/public/favicon.ico" alt="Andreas Galanis" />;
         }else if(logo === 'symbol-light'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
+            logoUrl = <img src="/public/favicon.ico" alt="Andreas Galanis" />;
         }else{
-            logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+            logoUrl = <img src="/public/favicon.ico" alt="Andreas Galanis" />;
         }
 
 

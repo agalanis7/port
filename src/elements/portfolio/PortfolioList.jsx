@@ -3,35 +3,22 @@ import React, { Component } from "react";
 const PortfolioListContent = [
     {
         image: 'image-1',
-        category: 'Daystar Contracting',
-        title: 'HTML, CSS, Javascript',
+        category: 'Daystar Contracting Website',
+        title: 'React.js',
         link: 'https://www.daystarcontracting.com'
     },
     {
         image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'SobeKick Website',
+        title: 'Getting tickets to the big show',
+        link: 'https://sobekick.com/'
     },
     {
         image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    }
+        category: 'SobeKick Mobile App',
+        title: 'Getting tickets to the big show',
+        link: 'https://apps.apple.com/us/app/sobekick-online/id1283346557'
+    } 
 ]
 
 class PortfolioList extends Component{
