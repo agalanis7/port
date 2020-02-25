@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {FaInstagram ,FaFacebookF , FaLinkedinIn } from "react-icons/fa";
+import {FaInstagram ,FaFacebookF , FaLinkedinIn , FaFont } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 
@@ -54,15 +54,15 @@ class HeaderThree extends Component{
         const { logo, color='default-color' } = this.props;
         let logoUrl;
         if(logo === 'light'){
-            logoUrl = <img src="/public/favicon.ico" alt="Andreas Galanis" />;
+            logoUrl = <FaFont />;
         }else if(logo === 'dark'){
-            logoUrl = <img src="/public/favicon.ico" alt="Andreas Galanis" />;
+            logoUrl = <FaFont />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/public/favicon.ico" alt="Andreas Galanis" />;
+            logoUrl = <FaFont />;
         }else if(logo === 'symbol-light'){
-            logoUrl = <img src="/public/favicon.ico" alt="Andreas Galanis" />;
+            logoUrl = <FaFont />;
         }else{
-            logoUrl = <img src="/public/favicon.ico" alt="Andreas Galanis" />;
+            logoUrl = <FaFont />;
         }
 
 
