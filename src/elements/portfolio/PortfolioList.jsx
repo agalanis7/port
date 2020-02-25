@@ -16,7 +16,7 @@ const PortfolioListContent = [
     {
         image: 'image-3',
         category: 'SobeKick Mobile App',
-        title: 'React Native',
+        title: 'Zype',
         link: 'https://apps.apple.com/us/app/sobekick-online/id1283346557'
     } 
 ]
